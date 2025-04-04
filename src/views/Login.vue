@@ -7,7 +7,6 @@ import sectionAcessoAlternativo from '@/components/loginPage/sectionAcessoAltern
     <loginNav />
     <div class="container">
         <h2>Acessar ou criar conta</h2>
-        <div></div>
 
         <section id="makeLogin">
 
@@ -31,6 +30,7 @@ import sectionAcessoAlternativo from '@/components/loginPage/sectionAcessoAltern
 
 #makeLogin{
     width: 100%;
+    grid-column: 1;
 }
 h2 {
     font-family: 'Poppins', sans-serif;
@@ -46,13 +46,14 @@ h2 {
     display: flex;
 }
 .imgPatas{
-    background-image: url(/public/loginPage/patasFundo.png);
-    width: 100%;
+    background-image: url(/loginPage/patasFundo.png);
+    width: calc(100% - 43px);
     height: 340px;
     bottom: 100px;
     position: relative;
     z-index: -1;
     padding: 0;
+    left: 43px;
 }
 
 

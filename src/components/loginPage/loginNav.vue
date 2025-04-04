@@ -8,8 +8,8 @@
     <div class="login">
       <img src="/user.png" alt="user" />
       <div class="cadastro">
-        <p><router-link to="">Entrar</router-link></p>
-        <p id="cadastre"><router-link to="">Cadastre-se</router-link></p>
+        <p><router-link to="/login">Entrar</router-link></p>
+        <p id="cadastre"><router-link to="/register">Cadastre-se</router-link></p>
       </div>
     </div>
   </nav>
